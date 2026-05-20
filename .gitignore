@@ -1,0 +1,8 @@
+build*/
+frames/
+*.jpg
+build-deps/
+.cache/
+.claude/
+HANDOFF_SUMMARY.md
+CLAUDE.md

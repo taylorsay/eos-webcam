@@ -1,0 +1,3 @@
+# Future options when the pipeline handler is added
+# option('with_pipeline_handler', type : 'boolean', value : false,
+#   description : 'Build the libcamera pipeline handler (requires libcamera dev headers)')

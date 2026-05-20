@@ -1,0 +1,1 @@
+options v4l2loopback devices=1 video_nr=10 card_label="Canon EOS 1200D" exclusive_caps=1

@@ -1,0 +1,14 @@
+[Unit]
+Description=Canon EOS webcam bridge
+Documentation=https://github.com/taylorsay/eos-webcam
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStartPre=/bin/bash -c 'for i in $(seq 1 30); do [ -e /dev/video10 ] && exit 0; sleep 1; done; echo "Timed out waiting for /dev/video10"; exit 1'
+ExecStart=%h/.local/bin/eos-webcam --device /dev/video10
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=graphical-session.target
