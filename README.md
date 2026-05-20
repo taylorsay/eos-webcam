@@ -1,8 +1,8 @@
-# eos-webcam
+# EOS-Webcam 
 
-Use a Canon EOS camera as a Linux webcam — in OBS, Discord, Zoom, or any V4L2-compatible app.
+Webcam utility exists in windows but they seem to have forgotten the penguin.
 
-Works with any Canon EOS that supports USB live view via libgphoto2 (most DSLRs from the 500D/T1i onward).
+Should in theory work with any Canon EOS that supports USB live view via libgphoto2 (most DSLRs from the 500D/T1i onward).
 
 Expect this to be buggy. The alternative was messing around with v4l2loopback. I tried it for a little bit but it was just super jank. This is a very similar approach but its packaged more like a driver.
 
