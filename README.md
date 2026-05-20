@@ -1,4 +1,4 @@
-# EOS-Webcam 
+# EOS-Webcam-Linux
 
 Webcam utility exists in windows but they seem to have forgotten the penguin.
 
